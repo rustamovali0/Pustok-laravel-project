@@ -2,6 +2,7 @@
 
 namespace App\View\Components;
 
+use App\Models\Brand;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
@@ -21,6 +22,8 @@ class FrontFooterComponent extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.front-footer-component');
+        $brands=Brand::all();
+        return view('components.front-footer-component',compact('brands'));
     }
 }
+

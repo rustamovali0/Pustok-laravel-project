@@ -15,30 +15,16 @@
             {"breakpoint":480, "settings": {"slidesToShow": 2} },
             {"breakpoint":320, "settings": {"slidesToShow": 1} }
         ]'>
-            <div class="single-slide">
-                <img src="{{asset('front/assets/image/others/brand-1.jpg')}}" alt="">
-            </div>
-            <div class="single-slide">
-                <img src="{{asset('front/assets/image/others/brand-2.jpg')}}" alt="">
-            </div>
-            <div class="single-slide">
-                <img src="{{asset('front/assets/image/others/brand-3.jpg')}}" alt="">
-            </div>
-            <div class="single-slide">
-                <img src="{{asset('front/assets/image/others/brand-4.jpg')}}" alt="">
-            </div>
-            <div class="single-slide">
-                <img src="{{asset('front/assets/image/others/brand-5.jpg')}}" alt="">
-            </div>
-            <div class="single-slide">
-                <img src="{{asset('front/assets/image/others/brand-6.jpg')}}" alt="">
-            </div>
-            <div class="single-slide">
-                <img src="{{asset('front/assets/image/others/brand-1.jpg')}}" alt="">
-            </div>
-            <div class="single-slide">
-                <img src="{{asset('front/assets/image/others/brand-2.jpg')}}" alt="">
-            </div>
+         
+        
+        @foreach ($brands as $brand)
+        <div class="single-slide">
+            <img src="{{asset($brand->img_url)}}" alt="">
+
+        </div>
+            
+        @endforeach
+           
         </div>
     </div>
 </section>

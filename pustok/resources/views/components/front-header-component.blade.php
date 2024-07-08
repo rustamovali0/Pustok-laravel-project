@@ -311,7 +311,7 @@
                                     <ul class="sub-menu">
                                         <li><a href="">Brake Tools</a></li>
                                         <li><a href="">Driveshafts</a></li>
-                                        <li><a href="">Emergency Brake</a></li>
+                                       <li><a href="">Emergency Brake</a></li>
                                         <li><a href="">Spools</a></li>
                                     </ul>
                                 </li>

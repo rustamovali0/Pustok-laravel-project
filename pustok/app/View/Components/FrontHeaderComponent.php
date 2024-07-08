@@ -21,6 +21,6 @@ class FrontHEaderComponent extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.front-h-eader-component');
+        return view('components.front-header-component');
     }
 }
