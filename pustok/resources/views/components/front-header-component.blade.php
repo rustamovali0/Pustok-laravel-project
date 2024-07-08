@@ -14,7 +14,7 @@
                         <button>Search</button>
                     </div>
                 </div>
-                <d  iv class="col-lg-4">
+                <div class="col-lg-4">
                     <div class="main-navigation flex-lg-right">
                         <div class="cart-widget">
                             <div class="login-block">

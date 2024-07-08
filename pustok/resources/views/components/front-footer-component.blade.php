@@ -16,11 +16,11 @@
             {"breakpoint":320, "settings": {"slidesToShow": 1} }
         ]'>
          
-        
+    
         @foreach ($brands as $brand)
         <div class="single-slide">
             <img src="{{asset($brand->img_url)}}" alt="">
-
+    
         </div>
             
         @endforeach
@@ -33,3 +33,4 @@ Footer Area
 ===================================== -->
 <footer class="site-footer">
 </footer>
+       
