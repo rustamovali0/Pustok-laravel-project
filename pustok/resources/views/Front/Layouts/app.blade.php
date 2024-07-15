@@ -4,7 +4,7 @@
 <head>
     @include('Front.Layouts.includes.head')
 
-    @@stack('css')
+    @stack('css')
     <title>
         @stack('title','Pustok - Book Store')
     </title>
